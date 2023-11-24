@@ -1,0 +1,209 @@
+<h4 style="text-align: center;">Stage 2 - Fairness</h4>
+<style>body { font-family: Arial, sans-serif; font-size: 14px; } .table { border-collapse: collapse; width: 60%; margin: auto; } th, td { padding: 10px; text-align: center; background-color: #f2f2f2; } th:first-child, td:first-child { text-align: left; } td { font-size: 12px; } th { font-size: 12px; } h2 { font-size: 14px; }</style>
+
+<table border="0" class="dataframe table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>min</th>
+      <th>35%</th>
+      <th>50%</th>
+      <th>max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Assess the potential disparities between training/testing data and the target population</th>
+      <td>37</td>
+      <td>4.51</td>
+      <td>0.65</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Look at potential bias in data quality by sociodemographic factors</th>
+      <td>37</td>
+      <td>4.46</td>
+      <td>0.69</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Consider how sociodemographic subgroups are defined and the availability of this data</th>
+      <td>37</td>
+      <td>4.41</td>
+      <td>0.80</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Examine the robustness of model evaluation and data representation</th>
+      <td>37</td>
+      <td>4.35</td>
+      <td>0.89</td>
+      <td>1</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Consider the availability of “ground truth” versus proxy measures</th>
+      <td>37</td>
+      <td>4.35</td>
+      <td>0.86</td>
+      <td>2</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Evaluate proxies or composite scores for bias toward marginalized groups</th>
+      <td>37</td>
+      <td>4.30</td>
+      <td>0.85</td>
+      <td>2</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Evaluate the appropriateness and consistency of subgroup categorization</th>
+      <td>37</td>
+      <td>4.27</td>
+      <td>0.77</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Consider biases stemming from linguistic or literacy barriers</th>
+      <td>37</td>
+      <td>4.22</td>
+      <td>0.82</td>
+      <td>3</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Consider the impact of training on systemic and statistical bias</th>
+      <td>37</td>
+      <td>4.22</td>
+      <td>0.89</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Take into account social disparities and exclusion of data based on systems or operations</th>
+      <td>37</td>
+      <td>4.22</td>
+      <td>0.92</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Consider data quality factors that may impact evaluation of data distribution for a given population</th>
+      <td>37</td>
+      <td>4.22</td>
+      <td>0.79</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Consider data sources for sociodemographic categories</th>
+      <td>37</td>
+      <td>4.22</td>
+      <td>0.71</td>
+      <td>3</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Consider the need for expertise on variable preprocessing or coding</th>
+      <td>37</td>
+      <td>4.16</td>
+      <td>0.96</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Consider incorporation of sociodemographic factors in clinical decision making</th>
+      <td>37</td>
+      <td>4.14</td>
+      <td>0.89</td>
+      <td>3</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Account  for social determinants of health and feature selection methods</th>
+      <td>37</td>
+      <td>4.14</td>
+      <td>0.82</td>
+      <td>3</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Assess data standardization across sites</th>
+      <td>37</td>
+      <td>4.14</td>
+      <td>0.82</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Consider any data engineering efforts to address over/under-representation of certain subgroups</th>
+      <td>37</td>
+      <td>4.05</td>
+      <td>0.91</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Consider how disease prevalence and service access may impact data quality</th>
+      <td>37</td>
+      <td>4.03</td>
+      <td>0.99</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Evaluate whether and how to use proxies or composite scores</th>
+      <td>37</td>
+      <td>3.92</td>
+      <td>1.09</td>
+      <td>1</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
